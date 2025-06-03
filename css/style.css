@@ -1,0 +1,42 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+/* Header Elements */
+
+.header {
+    background: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.logo:hover,
+a:hover {
+    background: darkgray;
+}
