@@ -39,7 +39,7 @@ ul {
 }
 
 .header-links a {
-        color: #E5E7EB;
+    color: #E5E7EB;
     font-size: 18px
 }
 
@@ -61,9 +61,9 @@ a:hover {
 }
 
 .singup,
-.main-img{
-    color:white;
-    display:flex;
+.main-img {
+    color: white;
+    display: flex;
     flex-direction: column;
     width: 30%;
     height: 70%;
@@ -84,7 +84,7 @@ a:hover {
 }
 
 .singup-btn {
-    color:#F9FAF8;
+    color: #F9FAF8;
     font-weight: bold;
     width: fit-content;
     padding: 5px 30px;
@@ -98,7 +98,7 @@ a:hover {
     font-size: 18px
 }
 
-/*Info-section elements*/
+/*Info section elements*/
 
 .card-section {
     display: flex;
@@ -112,7 +112,7 @@ a:hover {
     display: flex;
     justify-self: center;
     font-size: 36px;
-    
+
 }
 
 .card {
@@ -128,6 +128,32 @@ a:hover {
 }
 
 .card-subtext {
-font-size: 18px;
-color: #1F2937;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+/* Mention section elements*/
+
+.quote-section {
+    display: flex;
+    background: #e5e7eb;
+    justify-content: center;
+}
+
+.quote {
+    display:flex;
+    flex-direction: column;
+    width:50%;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin-top: 100px;
+}
+
+.quote-name {
+    align-self: flex-end;
 }
