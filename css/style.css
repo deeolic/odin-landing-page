@@ -141,9 +141,9 @@ a:hover {
 }
 
 .quote {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    width:50%;
+    width: 50%;
 }
 
 .quote-text {
@@ -156,4 +156,61 @@ a:hover {
 
 .quote-name {
     align-self: flex-end;
+}
+
+.cta-section {
+    display: flex;
+    justify-content: center;
+}
+
+.cta-container {
+    background: #3882F6;
+    border: solid 1px #3882F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 50px;
+
+}
+
+.cta-call {
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+
+.cta-headline,
+.cta-subtext,
+.cta-button {
+    color: #F9FAF8
+}
+
+.cta-button {
+    text-align: center;
+
+    height: fit-content;
+    align-self: center;
+}
+
+#cta-link {
+    color: #E5E7EB;
+    border: solid 1px;
+    border-radius: 15px;
+    padding: 10px 30px;
+    width: 80px;
+}
+
+#cta-link:hover {
+    background: darkgray;
+}
+
+
+.cta-headline {
+    margin-bottom: 0;
+    font-size: 20px
+}
+
+.cta-subtext {
+    margin-top: 0;
 }
