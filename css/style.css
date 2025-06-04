@@ -214,3 +214,15 @@ a:hover {
 .cta-subtext {
     margin-top: 0;
 }
+
+/*Footer section elements*/
+
+.footer {
+    display: flex;
+    background: #1F2937;
+    justify-content: center;
+}
+
+.footer-text {
+    color: white
+}
